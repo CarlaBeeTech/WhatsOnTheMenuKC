@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
+<!-- saved from url=(0061)file:///C:/Users/cmb20/Downloads/index-watermarked-final.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What's on the Menu KC</title>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Barlow+Semi+Condensed:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="./index_files/css2" rel="stylesheet">
 <style>
 :root {
   --smoke:     #1C1410;
@@ -29,6 +29,77 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; }
+
+/* ─── WATERMARK BANNER ─── */
+.wm-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 9999;
+  background: #1C1410;
+  border-top: 3px solid #9E2B1A;
+  padding: 0.65rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
+}
+.wm-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.wm-badge {
+  background: #9E2B1A;
+  color: #F5ECD8;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.wm-text {
+  font-size: 0.72rem;
+  color: rgba(245,236,216,0.65);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.wm-text strong {
+  color: #DDB94E;
+  font-weight: 700;
+}
+.wm-right {
+  font-size: 0.68rem;
+  color: rgba(196,154,60,0.6);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  white-space: nowrap;
+}
+.wm-diagonal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 9998;
+  overflow: hidden;
+}
+.wm-diagonal::before {
+  content: 'SAMPLE · NOT LICENSED · CMB ENTERPRISE GROUP LLC · SAMPLE · NOT LICENSED · CMB ENTERPRISE GROUP LLC · SAMPLE · NOT LICENSED ·';
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  width: 300%;
+  transform: translateY(-50%) rotate(-35deg);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: rgba(158,43,26,0.06);
+  white-space: nowrap;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 4;
+  text-transform: uppercase;
+  word-spacing: 1em;
+}
 body {
   background: var(--smoke);
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -647,11 +718,11 @@ footer {
 <nav>
   <div class="nav-logo">What's on the <em>Menu</em> KC</div>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#specials">Specials</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#order" class="nav-cta">Order Now</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#about">About</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#menu">Menu</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#specials">Specials</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#gallery">Gallery</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#order" class="nav-cta">Order Now</a></li>
   </ul>
 </nav>
 
@@ -675,8 +746,8 @@ footer {
       <span class="htag htag-brick">Hibachi Nights</span>
     </div>
     <div class="hero-actions">
-      <a href="#order" class="btn-smoke">Place a Preorder</a>
-      <a href="#menu" class="btn-outline-gold">See the Menu</a>
+      <a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#order" class="btn-smoke">Place a Preorder</a>
+      <a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#menu" class="btn-outline-gold">See the Menu</a>
     </div>
   </div>
   <div class="hero-vert">Follow @whatsonthemenukc &nbsp;·&nbsp; (816) 409-9735</div>
@@ -684,20 +755,20 @@ footer {
 
 <!-- PHOTO STRIP -->
 <div class="photo-strip">
-  <div class="ps-item">
-    <img src="images/food1.jpg" alt="BBQ Plate" onerror="this.parentElement.style.background='#2a1a10'">
+  <div class="ps-item" style="background: rgb(42, 26, 16);">
+    <img src="file:///C:/Users/cmb20/Downloads/images/food1.jpg" alt="BBQ Plate" onerror="this.parentElement.style.background=&#39;#2a1a10&#39;">
     <div class="ps-cap">BBQ Plates</div>
   </div>
-  <div class="ps-item">
-    <img src="images/food2.jpg" alt="Mac Bowl" onerror="this.parentElement.style.background='#1e1510'">
+  <div class="ps-item" style="background: rgb(30, 21, 16);">
+    <img src="file:///C:/Users/cmb20/Downloads/images/food2.jpg" alt="Mac Bowl" onerror="this.parentElement.style.background=&#39;#1e1510&#39;">
     <div class="ps-cap">Mac Bowls</div>
   </div>
-  <div class="ps-item">
-    <img src="images/food3.jpg" alt="Steak Bake" onerror="this.parentElement.style.background='#251a10'">
+  <div class="ps-item" style="background: rgb(37, 26, 16);">
+    <img src="file:///C:/Users/cmb20/Downloads/images/food3.jpg" alt="Steak Bake" onerror="this.parentElement.style.background=&#39;#251a10&#39;">
     <div class="ps-cap">Steak Bake</div>
   </div>
-  <div class="ps-item">
-    <img src="images/food4.jpg" alt="Sides" onerror="this.parentElement.style.background='#1a1208'">
+  <div class="ps-item" style="background: rgb(26, 18, 8);">
+    <img src="file:///C:/Users/cmb20/Downloads/images/food4.jpg" alt="Sides" onerror="this.parentElement.style.background=&#39;#1a1208&#39;">
     <div class="ps-cap">Fresh Sides</div>
   </div>
 </div>
@@ -724,7 +795,7 @@ footer {
       </div>
       <div class="stt brick-t">
         <span class="stt-n">KC</span>
-        <span class="stt-l">Based & Proud</span>
+        <span class="stt-l">Based &amp; Proud</span>
       </div>
       <div class="stt gold-t">
         <span class="stt-n" style="color:var(--gold2); font-size:2rem;">Fresh</span>
@@ -743,9 +814,9 @@ footer {
   </div>
   <div class="menu-wrap">
     <div class="tabs">
-      <button class="tab on" onclick="showTab('dinner',this)">Dinner Plates</button>
-      <button class="tab" onclick="showTab('hibachi',this)">Hibachi Nights</button>
-      <button class="tab" onclick="showTab('weekend',this)">Weekend Menu</button>
+      <button class="tab on" onclick="showTab(&#39;dinner&#39;,this)">Dinner Plates</button>
+      <button class="tab" onclick="showTab(&#39;hibachi&#39;,this)">Hibachi Nights</button>
+      <button class="tab" onclick="showTab(&#39;weekend&#39;,this)">Weekend Menu</button>
     </div>
 
     <!-- DINNER -->
@@ -758,7 +829,7 @@ footer {
         </div>
         <div class="deal-right">
           <strong>Available</strong>
-          Thursday & Friday<br>Pickup & Delivery · From 2pm
+          Thursday &amp; Friday<br>Pickup &amp; Delivery · From 2pm
         </div>
       </div>
       <div class="cat">Entrees</div>
@@ -774,7 +845,7 @@ footer {
       </div>
       <div class="cat">Sides — $3 each</div>
       <div class="mi-grid">
-        <div class="mi"><span class="mi-n">Macaroni & Cheese</span><span class="mi-p">$3</span></div>
+        <div class="mi"><span class="mi-n">Macaroni &amp; Cheese</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">Baked Beans</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">Garlic Mashed Potatoes</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">Green Beans</span><span class="mi-p">$3</span></div>
@@ -809,7 +880,7 @@ footer {
         <div class="deal-num" style="font-size:2.8rem; line-height:1.1;">Hibachi<br>Nights</div>
         <div class="deal-mid">
           <strong>Late Night Hibachi</strong>
-          <p>Sat & Sun · 10pm – 3am · Downtown KC</p>
+          <p>Sat &amp; Sun · 10pm – 3am · Downtown KC</p>
         </div>
         <div class="deal-right">
           <strong>Text to Order</strong>
@@ -828,7 +899,7 @@ footer {
         <div class="mi"><span class="mi-n">Fried Rice</span><span class="mi-p">$3.50</span></div>
         <div class="mi"><span class="mi-n">Noodles</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">Crab Rangoon</span><span class="mi-p">$2.50</span></div>
-        <div class="mi"><span class="mi-n">Broccoli & Zucchini</span><span class="mi-p">$2</span></div>
+        <div class="mi"><span class="mi-n">Broccoli &amp; Zucchini</span><span class="mi-p">$2</span></div>
       </div>
       <div class="cat">Drinks</div>
       <div class="mi-grid">
@@ -860,7 +931,7 @@ footer {
       </div>
       <div class="cat">Sides</div>
       <div class="mi-grid">
-        <div class="mi"><span class="mi-n">Jack & Cheese</span><span class="mi-p">$3</span></div>
+        <div class="mi"><span class="mi-n">Jack &amp; Cheese</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">Dirty Rice</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">Hash Potato</span><span class="mi-p">$3</span></div>
         <div class="mi"><span class="mi-n">White Rice</span><span class="mi-p">$3</span></div>
@@ -885,18 +956,18 @@ footer {
   </div>
   <div class="sp-grid">
     <div class="sp">
-      <div class="sp-day">Apr 23–24, 2026 · Thu & Fri</div>
+      <div class="sp-day">Apr 23–24, 2026 · Thu &amp; Fri</div>
       <div class="sp-name">Dinner Plate Special</div>
       <ul class="sp-list">
         <li>BBQ Boneless Beef Ribs</li>
         <li>Grilled Salmon</li>
         <li>Choice of 2 sides</li>
-        <li>Dessert, Drink & Roll</li>
+        <li>Dessert, Drink &amp; Roll</li>
       </ul>
       <div class="sp-price">$20</div>
     </div>
     <div class="sp">
-      <div class="sp-day">Sat & Sun · 10pm – 3am</div>
+      <div class="sp-day">Sat &amp; Sun · 10pm – 3am</div>
       <div class="sp-name">Hibachi Nights</div>
       <ul class="sp-list">
         <li>Fresh hibachi bowls to order</li>
@@ -928,36 +999,36 @@ footer {
     <div class="hdivider-dark" style="margin-left:auto;margin-right:auto;"></div>
   </div>
   <div class="g-grid">
-    <div class="gi tall">
-      <img src="images/food1.jpg" alt="BBQ plate" onerror="this.parentElement.style.background='#2a1a10'">
+    <div class="gi tall" style="background: rgb(42, 26, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food1.jpg" alt="BBQ plate" onerror="this.parentElement.style.background=&#39;#2a1a10&#39;">
       <div class="gi-ov"><span>BBQ Plates</span></div>
     </div>
-    <div class="gi">
-      <img src="images/food2.jpg" alt="Mac bowl" onerror="this.parentElement.style.background='#1e1510'">
+    <div class="gi" style="background: rgb(30, 21, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food2.jpg" alt="Mac bowl" onerror="this.parentElement.style.background=&#39;#1e1510&#39;">
       <div class="gi-ov"><span>Mac Bowls</span></div>
     </div>
-    <div class="gi">
-      <img src="images/food3.jpg" alt="Steak bake" onerror="this.parentElement.style.background='#251a10'">
+    <div class="gi" style="background: rgb(37, 26, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food3.jpg" alt="Steak bake" onerror="this.parentElement.style.background=&#39;#251a10&#39;">
       <div class="gi-ov"><span>Steak Bake</span></div>
     </div>
-    <div class="gi tall">
-      <img src="images/food4.jpg" alt="Meatball mac" onerror="this.parentElement.style.background='#2a1a10'">
+    <div class="gi tall" style="background: rgb(42, 26, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food4.jpg" alt="Meatball mac" onerror="this.parentElement.style.background=&#39;#2a1a10&#39;">
       <div class="gi-ov"><span>Mac Specials</span></div>
     </div>
-    <div class="gi">
-      <img src="images/food5.jpg" alt="Plate" onerror="this.parentElement.style.background='#1a1208'">
+    <div class="gi" style="background: rgb(26, 18, 8);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food5.jpg" alt="Plate" onerror="this.parentElement.style.background=&#39;#1a1208&#39;">
       <div class="gi-ov"><span>Daily Plates</span></div>
     </div>
-    <div class="gi">
-      <img src="images/food6.jpg" alt="Plate" onerror="this.parentElement.style.background='#241810'">
+    <div class="gi" style="background: rgb(36, 24, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food6.jpg" alt="Plate" onerror="this.parentElement.style.background=&#39;#241810&#39;">
       <div class="gi-ov"><span>Weekend Menu</span></div>
     </div>
-    <div class="gi">
-      <img src="images/food7.jpg" alt="Plate" onerror="this.parentElement.style.background='#1e1410'">
+    <div class="gi" style="background: rgb(30, 20, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food7.jpg" alt="Plate" onerror="this.parentElement.style.background=&#39;#1e1410&#39;">
       <div class="gi-ov"><span>Comfort Food</span></div>
     </div>
-    <div class="gi">
-      <img src="images/food8.jpg" alt="Plate" onerror="this.parentElement.style.background='#2a1a10'">
+    <div class="gi" style="background: rgb(42, 26, 16);">
+      <img src="file:///C:/Users/cmb20/Downloads/images/food8.jpg" alt="Plate" onerror="this.parentElement.style.background=&#39;#2a1a10&#39;">
       <div class="gi-ov"><span>Fresh Sides</span></div>
     </div>
   </div>
@@ -1004,15 +1075,15 @@ footer {
   <div class="foot-logo">What's on the <em>Menu</em> KC</div>
   <div class="foot-tag">Fresh plates. Bold flavors. Kansas City soul.</div>
   <ul class="foot-nav">
-    <li><a href="#about">About</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#specials">Specials</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#order">Order</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#about">About</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#menu">Menu</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#specials">Specials</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#gallery">Gallery</a></li>
+    <li><a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#order">Order</a></li>
     <li><a href="https://www.instagram.com/whatsonthemenukc" target="_blank">Instagram</a></li>
   </ul>
   <div class="foot-base">
-    &copy; 2026 What's on the Menu KC &nbsp;·&nbsp; Website by <a href="#">CMB Enterprise Group LLC</a>
+    © 2026 What's on the Menu KC &nbsp;·&nbsp; Website by <a href="file:///C:/Users/cmb20/Downloads/index-watermarked-final.html#">CMB Enterprise Group LLC</a>
   </div>
 </footer>
 
@@ -1024,5 +1095,19 @@ function showTab(id, btn) {
   document.getElementById('panel-' + id).classList.add('on');
 }
 </script>
-</body>
-</html>
+
+<!-- WATERMARK OVERLAY -->
+<div class="wm-diagonal"></div>
+
+<!-- WATERMARK BOTTOM BAR -->
+<div class="wm-bar">
+  <div class="wm-left">
+    <span class="wm-badge">Preview</span>
+    <span class="wm-text">This is a complimentary preview — designed exclusively for you by <strong>CMB Enterprise Group LLC</strong></span>
+  </div>
+  <div class="wm-right">Contact Carla Bee · <a href="mailto:info@carlabee.com" style="color:#DDB94E; text-decoration:none;">info@carlabee.com</a></div>
+</div>
+
+
+
+</body></html>
